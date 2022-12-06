@@ -1,0 +1,31 @@
+.img {
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    border: 3px solid gray;
+    width: 100px;
+  }
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+tbody {
+    color: white;
+}
+
+.itemtr {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.itemtr:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+td{
+    border-radius: 15px;
+}

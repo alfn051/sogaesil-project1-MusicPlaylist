@@ -1,0 +1,14 @@
+.table {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+
+}

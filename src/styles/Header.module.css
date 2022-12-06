@@ -1,0 +1,23 @@
+.table {
+    color: white;
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 2px solid rgb(126, 190, 123);
+    position: fixed;
+    top: 0px;
+  }
+  
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
