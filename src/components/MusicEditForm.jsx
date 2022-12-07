@@ -61,6 +61,7 @@ function MusicEditForm({musicList=[], id='', onUpdateMusic=f=>f, editable=f=>f, 
         changeMusic('imgLink', '')
         changeMusic('lyrics', '')
         navigation(`/editing/${id}`)
+        setEditable(false);
     }
 
     return (
@@ -71,7 +72,7 @@ function MusicEditForm({musicList=[], id='', onUpdateMusic=f=>f, editable=f=>f, 
                         <tr>
                             <td></td>
                             <td><h3>음악 수정하기</h3></td>
-                            <td><button onClick={()=>setEditable(false)} type='submit'><span className="material-symbols-outlined">check_box</span></button>
+                            <td><button  type='submit'><span className="material-symbols-outlined">check_box</span></button>
                                 <button onClick={()=>setEditable(false)}><span className="material-symbols-outlined">disabled_by_default</span></button></td>
                         </tr>
                         <tr>
